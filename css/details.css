@@ -1,0 +1,406 @@
+.wrapper {
+    display: grid;
+    width: 1000px;
+    margin-left: 200px;
+    margin-right: 100px;
+    grid-template-columns: repeat(4, 250px);
+    /* grid-column-gap: 1em; */
+    /* grid-row-gap: 1em; */
+    grid-auto-rows: minmax(40px, auto);
+    background: #eee;
+}
+
+.wrapper > div {
+    padding: 1em;
+}
+
+.code {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    /* background-color: rgb(0, 208, 255); */
+    text-align: right;
+    padding: 15px;
+    margin: 5px;
+}
+
+.name {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    /* background-color: rgb(81, 255, 0); */
+    padding: 10px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.company {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    /* background-color: rgb(234, 113, 33); */
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.location {
+    /* grid-column: 1/4; */
+    grid-column: 1/2;
+    grid-row: 4/5;
+    /* background-color: rgb(113, 173, 115); */
+    padding: 10px;
+}
+
+.location_data {
+    grid-column: 2/5;
+    grid-row: 4/5;
+    /* background-color: rgb(113, 173, 115); */
+    padding: 10px;
+}
+
+.type {
+    /* grid-column: 1/2;
+    grid-row: 5/7; */
+    grid-column: 1/2;
+    grid-row: 5/6;
+    /* background-color: rgb(229, 100, 175); */
+    padding: 5px;
+}
+
+.type_data {
+    /* grid-column: 1/2;
+    grid-row: 5/7; */
+    grid-column: 2/5;
+    grid-row: 5/6;
+    /* background-color: rgb(229, 100, 175); */
+    padding: 5px;
+}
+
+.duration {
+    /* grid-column: 2/3;
+    grid-row: 5/7; */
+    grid-column: 1/2;
+    grid-row: 6/8;
+    /* background-color: rgb(113, 173, 115); */
+    padding: 5px;
+}
+
+.duration_data {
+    /* grid-column: 2/3;
+    grid-row: 5/7; */
+    grid-column: 2/5;
+    grid-row: 6/8;
+    /* background-color: rgb(113, 173, 115); */
+    padding: 5px;
+}
+
+.espa {
+    /* grid-column: 3/5;
+    grid-row: 5/7; */
+    grid-column: 1/4;
+    grid-row: 7/8;
+    /* background-color: rgb(234, 113, 33); */
+    padding: 10px;
+}
+
+.published{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    /* background-color: rgb(255, 221, 0); */
+    padding: 10px;
+    text-align: right;
+}
+
+.start-date{
+    grid-column: 1/5;
+    grid-row: 3/4;
+    /* background-color: rgb(0, 162, 255); */
+    padding: 10px;
+    text-align: right;
+}
+
+.salary {
+    grid-column: 1/2;
+    /* grid-row: 7/8; */
+    grid-row: 8/9;
+    /* background-color: rgb(0, 162, 255); */
+    padding: 10px;
+}
+
+.salary_data {
+    grid-column: 2/5;
+    /* grid-row: 7/8; */
+    grid-row: 8/9;
+    /* background-color: rgb(0, 162, 255); */
+    padding: 10px;
+}
+
+.hours {
+    grid-column: 1/2;
+    /* grid-row: 8/9; */
+    grid-row: 9/10;
+    /* background-color: rgb(85, 155, 196); */
+    padding: 10px;
+}
+
+.hours_data {
+    grid-column: 2/5;
+    /* grid-row: 8/9; */
+    grid-row: 9/10;
+    /* background-color: rgb(85, 155, 196); */
+    padding: 10px;
+}
+
+.no {
+    grid-column: 1/2;
+    /* grid-row: 9/11; */
+    grid-row: 10/11;
+    /* background-color: rgb(84, 185, 175); */
+    padding: 10px;
+}
+
+.no_data {
+    grid-column: 2/5;
+    /* grid-row: 9/11; */
+    grid-row: 10/11;
+    /* background-color: rgb(84, 185, 175); */
+    padding: 10px;
+}
+
+.department {
+    grid-column: 1/2;
+    grid-row: 12/14;
+    /* background-color: rgb(216, 139, 201); */
+    padding: 10px;
+}
+
+.department_data {
+    grid-column: 2/5;
+    grid-row: 12/14;
+    /* background-color: rgb(216, 139, 201); */
+    padding: 10px;
+    white-space: pre-wrap;
+}
+
+.object {
+    grid-column: 1/2;
+    grid-row: 11/12;
+    /* background-color: rgb(145, 109, 125); */
+    padding: 10px;
+}
+
+.object_data {
+    grid-column: 2/5;
+    grid-row: 11/12;
+    /* background-color: rgb(145, 109, 125); */
+    padding: 10px;
+}
+
+.site {
+    grid-column: 1/2;
+    /* grid-row: 14/15; */
+    grid-row: 20/22;
+    /* background-color: rgb(92, 160, 76); */
+    padding: 10px;
+}
+
+.site_data {
+    grid-column: 2/4;
+    /* grid-row: 14/15; */
+    grid-row: 20/22;
+    /* background-color: rgb(92, 160, 76); */
+    padding: 10px;
+}
+
+.info {
+    grid-column: 1/2;
+    /* grid-row: 15/17; */
+    grid-row: 19/20;
+    /* background-color: rgb(60, 184, 145); */
+    padding: 10px;
+}
+
+.phone {
+    grid-column: 2/3;
+    /* grid-row: 15/17; */
+    grid-row: 19/20;
+    /* background-color: rgb(117, 150, 140); */
+    padding: 10px;
+}
+
+.email {
+    grid-column: 3/5;
+    /* grid-row: 15/17; */
+    grid-row: 19/20;
+    /* background-color: rgb(60, 184, 145); */
+    padding: 10px;
+}
+
+.job_descr {
+    grid-column: 1/2;
+    /* grid-row: 17/18; */
+    grid-row: 14/15;
+    /* background-color: rgb(219, 203, 76); */
+    padding: 10px;
+}
+
+.job_descr_data {
+    grid-column: 2/5;
+    grid-row: 14/15;
+    /* background-color: rgb(219, 203, 76); */
+    padding: 10px;
+    white-space: pre-wrap;
+}
+
+.required {
+    grid-column: 1/2;
+    /* grid-row: 17/18; */
+    grid-row: 15/16;
+    /* background-color: rgb(219, 203, 76); */
+    padding: 10px;
+}
+
+.required_data {
+    grid-column: 2/5;
+    grid-row: 15/16;
+    /* background-color: rgb(219, 203, 76); */
+    padding: 10px;
+    white-space: pre-wrap;
+}
+
+.wanted {
+    grid-column: 1/5;
+    /* grid-row: 18/19; */
+    grid-row: 16/17;
+    /* background-color: rgb(175, 116, 118); */
+    padding: 10px;
+}
+
+.wanted_data {
+    grid-column: 2/5;
+    grid-row: 16/17;
+    /* background-color: rgb(219, 203, 76); */
+    padding: 10px;
+    white-space: pre-wrap;
+}
+
+.offers {
+    grid-column: 1/2;
+    /* grid-row: 19/20; */
+    grid-row: 17/19;
+    /* background-color: rgb(104, 164, 199); */
+    padding: 10px;
+}
+
+.offers_data {
+    grid-column: 2/5;
+    grid-row: 17/19;
+    /* background-color: rgb(219, 203, 76); */
+    padding: 10px;
+    white-space: pre-wrap;
+}
+
+.heart{
+    text-align: right;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    /* background-color: rgb(255, 0, 76); */
+    padding: 15px;
+}
+
+.btn-position{
+    grid-column: 4/5;
+    grid-row: 21/22;
+    /* background-color: rgb(255, 183, 0); */
+    text-align: right;
+}
+
+.btn {
+    width: 150px;
+    background-color: #f3993a;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    background-color: lightblue;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+  .error {
+    grid-column: 4/5;
+    grid-row: 20/21;
+    color: #810000;
+    padding: 0 0 5px 0;
+    text-align: left;
+    /* float: right; */
+}

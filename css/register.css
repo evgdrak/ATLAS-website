@@ -1,0 +1,167 @@
+.english-flag {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.go-back {
+    padding: 10px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.registration {
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    background-color: midnightblue;
+    color: white;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.box {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 10px 0px;
+    display: flex;
+    gap: 10px 2em;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.register-box {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    width: 300px;
+    padding: 90px 0;
+    display: grid;
+    background-color: lightblue;
+    font-size: 15px;
+}
+
+.form {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.register-form {
+    text-align: center;
+    background-color: lightblue;
+}
+
+.register-stud-form {
+    border: 1px solid black;
+    width: 600px;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.container {
+    padding: 15px;
+}
+
+.required {
+    padding: 5px 0px;
+    display: block;
+}
+
+.required:after {
+    color: #e32;
+    content: ' *';
+    display:inline;
+}
+
+.inp {
+    width: 200px;
+    border-radius: 25px;
+    padding: 7px 15px;
+    margin: 5px auto 10px auto;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.inp:focus{
+    outline: 2px solid gray;
+}
+
+.btn{
+    width: 150px;
+    background-color: #f3993a;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+span {
+    display: block;
+    overflow: hidden;
+    padding: 0px 4px 0px 6px;
+}
+
+.error {
+    color: #810000;
+    padding: 0 0 5px 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.select {
+    width: fit-content;
+    border-radius: 7px;
+    padding: 7px 15px;
+    margin: 5px auto 10px auto;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.divide {
+    display: flex;
+    margin: 0 10px;
+    justify-content: center;
+}
+
+.divide_fields {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.container_data {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container_left {
+    border-color: black;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+}
+
+.container_right {
+    border-color: black;
+    border-style: solid;
+    border-width: 0px 1px 1px 0px;
+}
+
+.container_top {
+    background-color: white;
+}

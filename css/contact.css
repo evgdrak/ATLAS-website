@@ -1,0 +1,24 @@
+.wrapper2{
+    display: grid;
+    margin: 30px;
+    grid-auto-rows: minmax(10px, auto);
+    text-align: center;
+    grid-template-columns: 1fr;
+    height: 300px;
+    /* width: 60%; */
+    float: center;
+}
+
+.wrapper2 > div{
+    /* background-color: #eee; */
+    background-color: #f2f2f2;
+    color: black;
+    padding: 1em;
+}
+
+.wrapper2 > span{
+    /* background-color: #eee; */
+    background-color: #f2f2f2;
+    color: black;
+    padding: 1em;
+}

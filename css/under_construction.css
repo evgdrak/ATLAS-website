@@ -1,0 +1,16 @@
+.go-back {
+    padding: 10px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+body {
+    text-align: center;
+}
+
+.under_construction {
+    background-color: #e8f2ff;
+    padding: 10px;
+    margin: 0px 200px;
+}

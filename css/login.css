@@ -1,0 +1,96 @@
+.english-flag {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.go-back {
+    padding: 10px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.login-form {
+    border: 1px solid black;
+    width: 600px;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+h2{
+    font-weight: 600;
+}
+
+.container {
+    padding: 15px;
+}
+
+.inp {
+    width: 200px;
+    border-radius: 25px;
+    padding: 7px 15px;
+    margin: 5px auto 10px auto;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.inp:focus{
+    outline: 2px solid gray;
+}
+
+.btn{
+    width: 150px;
+    background-color: #f3993a; /* Green */
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.required {
+    padding: 5px 0px;
+    display: block;
+}
+
+.required:after {
+    color: #e32;
+    content: ' *';
+    display:inline;
+}
+
+span {
+    display: block;
+    overflow: hidden;
+    padding: 0px 4px 0px 6px;
+}
+
+.error {
+    color: #810000;
+    padding: 0 0 5px 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+  
+.radio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
