@@ -1,10 +1,10 @@
 # ATLAS-website
 
-Front-end and Back-end development of ATLAS website
+Front-end and Back-end development of ATLAS website.
 
-ATLAS is a website that is currently used for linking internship providers with all universities in Greece in order to support internship for undergraduate students.
+ATLAS is a centralized online service, which links internship providers with all academic institutions in the territory, creating a single database of internships available for selection by the institutions.
 
-This project includes the redevelopment of this existing website to a new one, more user-friendly that will simplify the actions needed for internship.
+This project centers around the redevelopment of the existing website to a new, more user-friendly one simplifying the fundamental application stage of an internship.
 
 Implemented with: HTML, CSS, PHP, JavaScript
 
