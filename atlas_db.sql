@@ -18,10 +18,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `sdi1900054`
+-- Database: `atlas_db`
 --
-CREATE DATABASE sdi1900054;
-USE  sdi1900054;
+CREATE DATABASE atlas_db;
+USE  atlas_db;
 -- --------------------------------------------------------
 
 --
